@@ -1,0 +1,29 @@
+链接Coding
+
+1，  切换到git目录点击git bash
+
+2， git init  初始化git目录
+
+3， git remote add origin ‘远程仓库地址’
+
+4， git pull --rebase origin master    把远程地址的文件Download
+  
+5， git status  查看文件信息
+
+6， git add (添加要修改的文件)
+
+7， git commit -m  “填写操作信息”  提交到本地仓库
+
+8， git push -u origin master  推送至远程服务器
+
+
+
+上传代码到git仓库  （把文件放到目录下）
+
+　　git init //把这个目录变成Git可以管理的仓库
+
+　　git commit -m "first commit" //把文件提交到仓库
+
+　　git remote add origin git@github.com:wangjiax9/practice.git //关联远程仓库
+
+　　git push -u origin master //把本地库的所有内容推送到远程库上
