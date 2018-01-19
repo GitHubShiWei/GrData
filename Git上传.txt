@@ -6,7 +6,7 @@
 
 3， git remote add origin ‘远程仓库地址’
 
-4， git pull --rebase origin master    把远程地址的文件Download
+4， git pull --rebase origin master    把远程地址的文件Download 是远程仓库与本地文件同步
   
 5， git status  查看文件信息
 
@@ -22,8 +22,12 @@
 
 　　git init //把这个目录变成Git可以管理的仓库
 
-　　git commit -m "first commit" //把文件提交到仓库
+    git add ‘’添加你要上传的文件
 
-　　git remote add origin git@github.com:wangjiax9/practice.git //关联远程仓库
+    git commit -m ‘  ’描述你的修改信息
 
-　　git push -u origin master //把本地库的所有内容推送到远程库上
+    git remote add origin ‘’   你的远程仓库地址
+
+    git pull --rebase origin master  获取远程库与本地同步合并
+
+    git push -u origin master  将本地文件推送到远程
